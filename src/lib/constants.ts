@@ -21,8 +21,8 @@ export const contactInfo: ContactInfo = {
   address: {
     country: 'République de Guinée',
     city: 'Conakry',
-    commune: 'Commune de Ratoma',
-    quartier: 'Lambanyi',
+    commune: 'Commune de Nongo',
+    quartier: 'Kiroty',
   },
   phones: ['(+224) 628 48 47 84', '(+224) 628 90 59 59'],
   email: 'apecguinee2023@gmail.com',

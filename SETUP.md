@@ -108,7 +108,7 @@ Complete bank information in [src/lib/constants.ts](src/lib/constants.ts:180-205
 ### 5. Update Google Maps Location
 
 In [src/components/sections/contact/ContactMap.tsx](src/components/sections/contact/ContactMap.tsx:8-9):
-- Update the `mapSrc` URL with accurate coordinates for Lambanyi, Ratoma
+- Update the `mapSrc` URL with accurate coordinates for Kiroty, Nongo
 
 To get the correct embed URL:
 1. Go to Google Maps

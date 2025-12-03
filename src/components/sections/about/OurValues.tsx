@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { organizationValues } from '@/lib/constants';
+import React from "react";
+import { motion } from "framer-motion";
+import { organizationValues } from "@/lib/constants";
 
 export const OurValues: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ export const OurValues: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-white mb-6">
-            Fondée sur le principe que chaque personne mérite{' '}
+            Fondée sur le principe que chaque personne mérite{" "}
             <span className="font-accent italic text-primary">dignité</span>
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
