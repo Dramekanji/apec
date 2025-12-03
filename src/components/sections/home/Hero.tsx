@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             className="relative w-full px-2"
           >
             <h1
-              className="text-8xl sm:text-9xl md:text-[10rem] lg:text-[12.5rem] xl:text-[15rem] 2xl:text-[17rem] font-black leading-[0.85] tracking-tighter"
+              className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[11rem] 2xl:text-[13rem] font-black leading-[0.85] tracking-tighter"
               style={{
                 backgroundImage: "url(/images/hero.avif)",
                 backgroundSize: "cover",

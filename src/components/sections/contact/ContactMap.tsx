@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 export const ContactMap: React.FC = () => {
   // Coordinates for Nongo Kiroty, Commune de Ratoma, Conakry, Guinea
   const mapSrc =
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15714.925849!2d-13.6582!3d9.5843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf1cc7e0c8f9c9c9d%3A0x1a2b3c4d5e6f7g8h!2sNongo%20Kiroty%2C%20Ratoma%2C%20Conakry%2C%20Guinea!5e0!3m2!1sen!2sus!4v1234567890';
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15714.925849!2d-13.6582!3d9.5843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf1cc7e0c8f9c9c9d%3A0x1a2b3c4d5e6f7g8h!2sNongo%20Kiroty%2C%20Ratoma%2C%20Conakry%2C%20Guinea!5e0!3m2!1sen!2sus!4v1234567890";
 
   return (
     <section className="bg-gray-50 py-20">
@@ -19,7 +19,10 @@ export const ContactMap: React.FC = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-medium text-dark mb-4">
-            Notre <span className="font-accent italic text-primary">Localisation</span>
+            Notre{" "}
+            <span className="font-accent italic text-primary">
+              Localisation
+            </span>
           </h2>
           <p className="text-lg text-dark/70">
             Retrouvez-nous à Nongo Kiroty, Commune de Ratoma, Conakry

@@ -1,11 +1,15 @@
-import React from 'react';
-import type { Metadata } from 'next';
-import { ContactHero, ContactForm, ContactMap } from '@/components/sections/contact';
+import React from "react";
+import type { Metadata } from "next";
+import {
+  ContactHero,
+  ContactForm,
+  ContactMap,
+} from "@/components/sections/contact";
 
 export const metadata: Metadata = {
-  title: 'Contact - APEC International',
+  title: "Contact - APEC International",
   description:
-    'Contactez APEC International pour toute question, partenariat ou opportunité de bénévolat. Nous sommes basés à Nongo Kiroty, Commune de Ratoma, Conakry, Guinée.',
+    "Contactez APEC International pour toute question, partenariat ou opportunité de bénévolat. Nous sommes basés à Nongo Kiroty, Commune de Ratoma, Conakry, Guinée.",
 };
 
 export default function ContactPage() {

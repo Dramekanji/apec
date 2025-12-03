@@ -42,16 +42,19 @@ Modern, minimalist website for APEC International (Action Pour l'Education Citoy
 ### Installation
 
 1. Navigate to the project directory:
+
 ```bash
 cd /Volumes/KanjiDev/apec
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -114,6 +117,7 @@ apec/
 ### Animations
 
 All animations use Framer Motion:
+
 - Page transitions (fade in)
 - Scroll-triggered animations (slide up, fade in)
 - Hover effects on cards and buttons
@@ -137,6 +141,7 @@ All animations use Framer Motion:
 ### Logo
 
 Add your logo to `public/logo.svg` and update references in:
+
 - `src/components/layout/Header.tsx`
 - `src/components/layout/Footer.tsx`
 
@@ -152,6 +157,7 @@ Add your logo to `public/logo.svg` and update references in:
 ## Contact Information
 
 **APEC International**
+
 - Address: Nongo Kiroty, Commune de Ratoma, Conakry, Guinea
 - Phone: (+224) 628 48 47 84 / 628 90 59 59
 - Email: apecguinee2023@gmail.com
