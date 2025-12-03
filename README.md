@@ -152,7 +152,7 @@ Add your logo to `public/logo.svg` and update references in:
 ## Contact Information
 
 **APEC International**
-- Address: Kiroty, Nongo, Conakry, Guinea
+- Address: Nongo Kiroty, Commune de Ratoma, Conakry, Guinea
 - Phone: (+224) 628 48 47 84 / 628 90 59 59
 - Email: apecguinee2023@gmail.com
 - Facebook: [APEC Guinea](https://facebook.com/apecguinee)
