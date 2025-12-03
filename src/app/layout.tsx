@@ -49,9 +49,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" className={`${poppins.variable} ${fraunces.variable}`}>
-      <body className="font-sans">
+      <body className="font-sans overflow-x-hidden">
         <Navbar />
-        <main>{children}</main>
+        <main className="overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>

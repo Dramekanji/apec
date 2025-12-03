@@ -32,33 +32,34 @@ export const AboutPresident: React.FC = () => {
 
             <div className="space-y-4 text-dark/70 leading-relaxed">
               <p>
-                Aboubacar &lsquo; Aldo &rsquo; Kourouma est le Fondateur et Président de
-                l&apos;APEC Internationale – Action Pour l&apos;Éducation Citoyenne.
-                Acteur engagé de la société civile guinéenne, il crée l&apos;APEC en
-                2022 avec une conviction claire : le véritable changement en
-                Afrique commence par un changement de mentalités à la base, à
-                travers l&apos;éducation citoyenne, l&apos;engagement de la jeunesse et un
-                sens renouvelé de responsabilité envers l&apos;avenir du continent.
+                Aboubacar &lsquo; Aldo &rsquo; Kourouma est le Fondateur et
+                Président de l&apos;APEC Internationale – Action Pour
+                l&apos;Éducation Citoyenne. Acteur engagé de la société civile
+                guinéenne, il crée l&apos;APEC en 2022 avec une conviction
+                claire : le véritable changement en Afrique commence par un
+                changement de mentalités à la base, à travers l&apos;éducation
+                citoyenne, l&apos;engagement de la jeunesse et un sens renouvelé
+                de responsabilité envers l&apos;avenir du continent.
               </p>
 
               <p>
                 Sous sa direction, l&apos;APEC Internationale est devenue une
-                plateforme de réflexion et d&apos;action autour des grands défis de
-                nos sociétés, en particulier la fuite des cerveaux des étudiants
-                et professionnels africains. À travers des conférences, débats
-                et campagnes de sensibilisation organisés en Guinée et à
-                l&apos;étranger – notamment au Maroc – Aboubacar Aldo défend des
-                solutions concrètes, pensées par et pour les Africains, afin
-                d&apos;encourager les talents à rester, revenir ou réinvestir leurs
-                compétences dans leurs pays d&apos;origine.
+                plateforme de réflexion et d&apos;action autour des grands défis
+                de nos sociétés, en particulier la fuite des cerveaux des
+                étudiants et professionnels africains. À travers des
+                conférences, débats et campagnes de sensibilisation organisés en
+                Guinée et à l&apos;étranger – notamment au Maroc – Aboubacar
+                Aldo défend des solutions concrètes, pensées par et pour les
+                Africains, afin d&apos;encourager les talents à rester, revenir
+                ou réinvestir leurs compétences dans leurs pays d&apos;origine.
               </p>
 
               <p>
-                Il intervient régulièrement dans les médias et lors d&apos;événements
-                internationaux pour rappeler que la fuite des cerveaux est un
-                enjeu crucial pour le développement du continent et que la
-                jeunesse doit disposer de véritables perspectives et voies
-                d&apos;engagement chez elle.
+                Il intervient régulièrement dans les médias et lors
+                d&apos;événements internationaux pour rappeler que la fuite des
+                cerveaux est un enjeu crucial pour le développement du continent
+                et que la jeunesse doit disposer de véritables perspectives et
+                voies d&apos;engagement chez elle.
               </p>
 
               <p>

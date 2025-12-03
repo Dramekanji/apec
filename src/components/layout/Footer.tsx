@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { contactInfo, navLinks } from '@/lib/constants';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { contactInfo, navLinks } from "@/lib/constants";
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -22,8 +22,8 @@ export const Footer: React.FC = () => {
               />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Autonomiser les communautés, transformer les vies. Votre soutien peut apporter
-              de l&apos;espoir à ceux qui en ont besoin.
+              Autonomiser les communautés, transformer les vies. Votre soutien
+              peut apporter de l&apos;espoir à ceux qui en ont besoin.
             </p>
           </div>
 
@@ -78,7 +78,8 @@ export const Footer: React.FC = () => {
                     />
                   </svg>
                   <span>
-                    {contactInfo.address.quartier}, {contactInfo.address.commune}
+                    {contactInfo.address.quartier},{" "}
+                    {contactInfo.address.commune}
                     <br />
                     {contactInfo.address.city}, {contactInfo.address.country}
                   </span>
@@ -103,7 +104,7 @@ export const Footer: React.FC = () => {
                     {contactInfo.phones.map((phone, idx) => (
                       <a
                         key={idx}
-                        href={`tel:${phone.replace(/\s/g, '')}`}
+                        href={`tel:${phone.replace(/\s/g, "")}`}
                         className="hover:text-primary transition-colors"
                       >
                         {phone}

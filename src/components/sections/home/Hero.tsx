@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui';
+import React from "react";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui";
 
 export const Hero: React.FC = () => {
   return (
@@ -26,13 +26,13 @@ export const Hero: React.FC = () => {
             <h1
               className="text-8xl sm:text-9xl md:text-[10rem] lg:text-[12.5rem] xl:text-[15rem] 2xl:text-[17rem] font-black leading-[0.85] tracking-tighter"
               style={{
-                backgroundImage: 'url(/images/hero.avif)',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundClip: 'text',
-                WebkitBackgroundClip: 'text',
-                color: 'transparent',
-                WebkitTextFillColor: 'transparent',
+                backgroundImage: "url(/images/hero.avif)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent",
+                WebkitTextFillColor: "transparent",
               }}
             >
               APEC
@@ -60,7 +60,11 @@ export const Hero: React.FC = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 pt-4"
           >
-            <Button href="/faire-un-don" size="lg" className="text-lg px-8 py-6">
+            <Button
+              href="/faire-un-don"
+              size="lg"
+              className="text-lg px-8 py-6"
+            >
               Faire un Don
             </Button>
             <Button
