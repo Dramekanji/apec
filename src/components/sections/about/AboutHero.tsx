@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const AboutHero: React.FC = () => {
   return (
-    <section className="relative bg-background min-h-[70vh] flex items-center overflow-hidden">
+    <section className="relative bg-background min-h-[70vh] flex items-center overflow-hidden mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text */}

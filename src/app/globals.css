@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --font-poppins: 'Poppins', sans-serif;
-    --font-fraunces: 'Fraunces', serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-fraunces: "Fraunces", serif;
   }
 
   html {
