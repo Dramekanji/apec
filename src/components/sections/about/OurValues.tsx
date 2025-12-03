@@ -35,19 +35,13 @@ export const OurValues: React.FC = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-colors"
             >
-              <div className="w-16 h-16 bg-primary/20 rounded-xl flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mb-6">
                 <svg
-                  className="w-8 h-8 text-primary"
-                  fill="none"
-                  stroke="currentColor"
+                  className="w-8 h-8 text-white"
+                  fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5 13l4 4L19 7"
-                  />
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
                 </svg>
               </div>
               <h3 className="text-2xl font-medium text-white mb-4">
