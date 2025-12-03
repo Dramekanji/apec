@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export const AboutHero: React.FC = () => {
@@ -62,17 +63,19 @@ export const AboutHero: React.FC = () => {
             className="grid grid-cols-2 gap-4"
           >
             <div className="relative rounded-2xl aspect-square overflow-hidden shadow-lg">
-              <img
+              <Image
                 src="/images/kids.jpeg"
                 alt="Deux enfants souriants"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
             <div className="relative rounded-2xl aspect-square overflow-hidden mt-8 shadow-lg">
-              <img
+              <Image
                 src="/images/women.jpeg"
                 alt="Une foule enthousiaste menée par une femme"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
           </motion.div>

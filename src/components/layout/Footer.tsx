@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Autonomiser les communautés, transformer les vies. Votre soutien peut apporter
-              de l'espoir à ceux qui en ont besoin.
+              de l&apos;espoir à ceux qui en ont besoin.
             </p>
           </div>
 

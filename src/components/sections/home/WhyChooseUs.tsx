@@ -1,28 +1,28 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui';
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui";
 
 const reasons = [
   {
-    id: 'impact',
-    title: 'Impact Prouvé',
+    id: "impact",
+    title: "Impact Prouvé",
     description:
-      'Plus de 150 personnes touchées en 2023, avec des projets concrets dans 14 pays.',
+      "Plus de 150 personnes touchées en 2023, avec des projets concrets dans 14 pays.",
   },
   {
-    id: 'community',
-    title: 'Axé sur la Communauté',
+    id: "community",
+    title: "Axé sur la Communauté",
     description:
-      'Nous travaillons en partenariat avec les leaders locaux pour assurer un changement durable.',
+      "Nous travaillons en partenariat avec les leaders locaux pour assurer un changement durable.",
   },
   {
-    id: 'transparent',
-    title: 'Transparent',
+    id: "transparent",
+    title: "Transparent",
     description:
-      'Rapports financiers clairs pour que vous sachiez exactement comment votre don est utilisé.',
+      "Rapports financiers clairs pour que vous sachiez exactement comment votre don est utilisé.",
   },
 ];
 
@@ -41,17 +41,15 @@ export const WhyChooseUs: React.FC = () => {
           >
             <div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-dark mb-6">
-                Pourquoi{' '}
-                <span className="font-accent italic text-primary">
-                  Choisir
-                </span>{' '}
+                Pourquoi{" "}
+                <span className="font-accent italic text-primary">Choisir</span>{" "}
                 APEC ?
               </h2>
               <p className="text-lg text-dark/70 leading-relaxed mb-8">
                 Avec plus de 10 ans de service dévoué, APEC International a
                 touché la vie de centaines de personnes à travers 14 pays. Nos
-                opérations transparentes et nos bénévoles passionnés garantissent
-                que chaque contribution a un impact maximal.
+                opérations transparentes et nos bénévoles passionnés
+                garantissent que chaque contribution a un impact maximal.
               </p>
             </div>
 

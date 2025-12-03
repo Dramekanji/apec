@@ -18,53 +18,53 @@ export const AboutPresident: React.FC = () => {
           >
             <div>
               <p className="text-sm text-dark/60 uppercase tracking-wider mb-2">
-                Aboubacar « Aldo » Kourouma - Président
+                Aboubacar &lsquo; Aldo &rsquo; Kourouma - Président
               </p>
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-dark leading-tight">
-                le chef de l'APEC.
+                le chef de l&apos;APEC.
               </h2>
             </div>
 
             <h3 className="text-xl sm:text-2xl font-medium text-dark">
               Un acteur engagé de la société civile, passionné par le changement
-              et l'avenir de l'Afrique.
+              et l&apos;avenir de l&apos;Afrique.
             </h3>
 
             <div className="space-y-4 text-dark/70 leading-relaxed">
               <p>
-                Aboubacar « Aldo » Kourouma est le Fondateur et Président de
-                l'APEC Internationale – Action Pour l'Éducation Citoyenne.
-                Acteur engagé de la société civile guinéenne, il crée l'APEC en
+                Aboubacar &lsquo; Aldo &rsquo; Kourouma est le Fondateur et Président de
+                l&apos;APEC Internationale – Action Pour l&apos;Éducation Citoyenne.
+                Acteur engagé de la société civile guinéenne, il crée l&apos;APEC en
                 2022 avec une conviction claire : le véritable changement en
                 Afrique commence par un changement de mentalités à la base, à
-                travers l'éducation citoyenne, l'engagement de la jeunesse et un
-                sens renouvelé de responsabilité envers l'avenir du continent.
+                travers l&apos;éducation citoyenne, l&apos;engagement de la jeunesse et un
+                sens renouvelé de responsabilité envers l&apos;avenir du continent.
               </p>
 
               <p>
-                Sous sa direction, l'APEC Internationale est devenue une
-                plateforme de réflexion et d'action autour des grands défis de
+                Sous sa direction, l&apos;APEC Internationale est devenue une
+                plateforme de réflexion et d&apos;action autour des grands défis de
                 nos sociétés, en particulier la fuite des cerveaux des étudiants
                 et professionnels africains. À travers des conférences, débats
                 et campagnes de sensibilisation organisés en Guinée et à
-                l'étranger – notamment au Maroc – Aboubacar Aldo défend des
+                l&apos;étranger – notamment au Maroc – Aboubacar Aldo défend des
                 solutions concrètes, pensées par et pour les Africains, afin
-                d'encourager les talents à rester, revenir ou réinvestir leurs
-                compétences dans leurs pays d'origine.
+                d&apos;encourager les talents à rester, revenir ou réinvestir leurs
+                compétences dans leurs pays d&apos;origine.
               </p>
 
               <p>
-                Il intervient régulièrement dans les médias et lors d'événements
+                Il intervient régulièrement dans les médias et lors d&apos;événements
                 internationaux pour rappeler que la fuite des cerveaux est un
                 enjeu crucial pour le développement du continent et que la
                 jeunesse doit disposer de véritables perspectives et voies
-                d'engagement chez elle.
+                d&apos;engagement chez elle.
               </p>
 
               <p>
                 Au-delà du plaidoyer, il œuvre à bâtir des passerelles entre
                 institutions, ambassades, universités et diaspora africaine, en
-                forgeant des partenariats qui soutiennent l'éducation, la
+                forgeant des partenariats qui soutiennent l&apos;éducation, la
                 culture citoyenne et la cohésion sociale. De Conakry à Rabat,
                 Aboubacar Aldo Kourouma incarne une nouvelle génération de
                 leaders africains engagés : ancrés dans leurs communautés,

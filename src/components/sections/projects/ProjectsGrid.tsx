@@ -1,34 +1,34 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Card } from '@/components/ui';
-import { projects } from '@/lib/constants';
-import type { ProjectCategory } from '@/lib/types';
+import React, { useState } from "react";
+import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
+import { Card } from "@/components/ui";
+import { projects } from "@/lib/constants";
+import type { ProjectCategory } from "@/lib/types";
 
-const categories: Array<{ value: ProjectCategory | 'Tous'; label: string }> = [
-  { value: 'Tous', label: 'Tous' },
-  { value: 'Sensibilisation', label: 'Sensibilisation' },
-  { value: 'Formation', label: 'Formation' },
-  { value: 'Distribution', label: 'Distribution' },
-  { value: 'Organisation', label: 'Organisation' },
+const categories: Array<{ value: ProjectCategory | "Tous"; label: string }> = [
+  { value: "Tous", label: "Tous" },
+  { value: "Sensibilisation", label: "Sensibilisation" },
+  { value: "Formation", label: "Formation" },
+  { value: "Distribution", label: "Distribution" },
+  { value: "Organisation", label: "Organisation" },
 ];
 
 const categoryColors: Record<string, string> = {
-  Sensibilisation: 'bg-green-100 text-green-800',
-  Formation: 'bg-blue-100 text-blue-800',
-  Distribution: 'bg-purple-100 text-purple-800',
-  Organisation: 'bg-orange-100 text-orange-800',
+  Sensibilisation: "bg-green-100 text-green-800",
+  Formation: "bg-blue-100 text-blue-800",
+  Distribution: "bg-purple-100 text-purple-800",
+  Organisation: "bg-orange-100 text-orange-800",
 };
 
 export const ProjectsGrid: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<
-    ProjectCategory | 'Tous'
-  >('Tous');
+    ProjectCategory | "Tous"
+  >("Tous");
 
   const filteredProjects =
-    selectedCategory === 'Tous'
+    selectedCategory === "Tous"
       ? projects
       : projects.filter((project) => project.category === selectedCategory);
 
@@ -48,8 +48,8 @@ export const ProjectsGrid: React.FC = () => {
               onClick={() => setSelectedCategory(category.value)}
               className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
                 selectedCategory === category.value
-                  ? 'bg-primary text-white shadow-md'
-                  : 'bg-gray-100 text-dark hover:bg-gray-200'
+                  ? "bg-primary text-white shadow-md"
+                  : "bg-gray-100 text-dark hover:bg-gray-200"
               }`}
             >
               {category.label}
@@ -65,8 +65,8 @@ export const ProjectsGrid: React.FC = () => {
           className="text-center text-dark/60 mb-8"
         >
           {filteredProjects.length} projet
-          {filteredProjects.length > 1 ? 's' : ''} trouvé
-          {filteredProjects.length > 1 ? 's' : ''}
+          {filteredProjects.length > 1 ? "s" : ""} trouvé
+          {filteredProjects.length > 1 ? "s" : ""}
         </motion.p>
 
         {/* Projects Grid */}
@@ -89,42 +89,43 @@ export const ProjectsGrid: React.FC = () => {
                 <Card className="h-full flex flex-col">
                   {/* Image Placeholder */}
                   <div className="bg-gray-200 aspect-[16/10] relative overflow-hidden">
-                    {project.id === 'securite-routiere-yimbaya' ? (
+                    {project.id === "securite-routiere-yimbaya" ? (
                       <Image
                         src="/images/road-safety.jpg"
                         alt={project.title}
                         fill
                         className="object-cover"
                       />
-                    ) : project.id === 'droits-enfants-kiroty' ? (
+                    ) : project.id === "droits-enfants-kiroty" ? (
                       <Image
                         src="/images/students-2.jpg"
                         alt={project.title}
                         fill
                         className="object-cover"
                       />
-                    ) : project.id === 'insertion-socioprofessionnelle-nongo' ? (
+                    ) : project.id ===
+                      "insertion-socioprofessionnelle-nongo" ? (
                       <Image
                         src="/images/professional.jpg"
                         alt={project.title}
                         fill
                         className="object-cover"
                       />
-                    ) : project.id === 'securite-routiere-bambeto' ? (
+                    ) : project.id === "securite-routiere-bambeto" ? (
                       <Image
                         src="/images/road-safety-2.jpg"
                         alt={project.title}
                         fill
                         className="object-cover"
                       />
-                    ) : project.id === 'securite-routiere-matam' ? (
+                    ) : project.id === "securite-routiere-matam" ? (
                       <Image
                         src="/images/road-safety-3.jpg"
                         alt={project.title}
                         fill
                         className="object-cover"
                       />
-                    ) : project.id === 'forum-russie-afrique' ? (
+                    ) : project.id === "forum-russie-afrique" ? (
                       <Image
                         src="/images/apec-2.jpeg"
                         alt={project.title}

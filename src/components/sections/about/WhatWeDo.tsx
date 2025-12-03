@@ -1,38 +1,38 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { focusAreas } from '@/lib/constants';
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { focusAreas } from "@/lib/constants";
 
 const initiatives = [
   {
-    id: 'emergency',
-    title: 'Aide d\'Urgence',
+    id: "emergency",
+    title: "Aide d'Urgence",
     description:
-      'Offrir un soutien immédiat en temps de crise - que ce soit par la distribution de nourriture, la fourniture d\'abris ou l\'assistance financière.',
-    icon: '🚨',
+      "Offrir un soutien immédiat en temps de crise - que ce soit par la distribution de nourriture, la fourniture d'abris ou l'assistance financière.",
+    icon: "🚨",
   },
   {
-    id: 'education',
-    title: 'Programmes d\'Éducation',
+    id: "education",
+    title: "Programmes d'Éducation",
     description:
-      'Équiper les individus avec les compétences et les connaissances dont ils ont besoin pour sortir de la pauvreté.',
-    icon: '📚',
+      "Équiper les individus avec les compétences et les connaissances dont ils ont besoin pour sortir de la pauvreté.",
+    icon: "📚",
   },
   {
-    id: 'health',
-    title: 'Santé et Bien-être',
+    id: "health",
+    title: "Santé et Bien-être",
     description:
-      'Assurer l\'accès à des soins de santé de qualité, des ressources en santé mentale et des programmes de bien-être.',
-    icon: '⚕️',
+      "Assurer l'accès à des soins de santé de qualité, des ressources en santé mentale et des programmes de bien-être.",
+    icon: "⚕️",
   },
   {
-    id: 'community',
-    title: 'Développement Communautaire',
+    id: "community",
+    title: "Développement Communautaire",
     description:
-      'Travailler avec les leaders locaux et les organisations pour créer des solutions durables qui profitent à des communautés entières.',
-    icon: '🤝',
+      "Travailler avec les leaders locaux et les organisations pour créer des solutions durables qui profitent à des communautés entières.",
+    icon: "🤝",
   },
 ];
 
@@ -69,8 +69,10 @@ export const WhatWeDo: React.FC = () => {
             className="space-y-6"
           >
             <h2 className="text-3xl sm:text-4xl font-medium text-dark">
-              Ce Que{' '}
-              <span className="font-accent italic text-primary">Nous Faisons</span>
+              Ce Que{" "}
+              <span className="font-accent italic text-primary">
+                Nous Faisons
+              </span>
             </h2>
             <p className="text-lg text-dark/70 leading-relaxed">
               De la fourniture d&apos;aide directe à ceux qui font face à des
@@ -133,7 +135,9 @@ export const WhatWeDo: React.FC = () => {
                 <h3 className="text-xl font-medium text-dark mb-3">
                   {area.title}
                 </h3>
-                <p className="text-dark/70 leading-relaxed">{area.description}</p>
+                <p className="text-dark/70 leading-relaxed">
+                  {area.description}
+                </p>
               </motion.div>
             ))}
           </div>

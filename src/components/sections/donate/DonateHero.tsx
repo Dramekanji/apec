@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 export const DonateHero: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ export const DonateHero: React.FC = () => {
             className="space-y-6"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-medium text-dark leading-tight">
-              Votre Don Fait la{' '}
+              Votre Don Fait la{" "}
               <span className="font-accent italic text-primary">
                 Différence
               </span>

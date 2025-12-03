@@ -86,7 +86,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="text-center">
               <p className="text-4xl font-bold text-primary mb-2">14</p>
-              <p className="text-dark/70 text-sm">Pays d'intervention</p>
+              <p className="text-dark/70 text-sm">Pays d&apos;intervention</p>
             </div>
             <div className="text-center">
               <p className="text-4xl font-bold text-primary mb-2">6</p>

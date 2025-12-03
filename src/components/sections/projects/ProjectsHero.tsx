@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 export const ProjectsHero: React.FC = () => {
   return (
@@ -14,8 +14,7 @@ export const ProjectsHero: React.FC = () => {
           className="text-center space-y-6 max-w-4xl mx-auto"
         >
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-medium text-dark leading-tight">
-            Nos{' '}
-            <span className="font-accent italic text-primary">Projets</span>{' '}
+            Nos <span className="font-accent italic text-primary">Projets</span>{" "}
             Réalisés
           </h1>
           <p className="text-lg sm:text-xl text-dark/80 leading-relaxed">
